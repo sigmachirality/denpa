@@ -1,0 +1,41 @@
+/*
+    Formatting styles
+*/
+
+body{
+    background-color: #b666d2;
+    color: white;
+    /*font-family: Gotham;*/
+}
+
+a, a:hover{
+    color: white;
+}
+
+.xd-hoverdim:hover, a:hover{
+    opacity: .5;
+}
+
+.xd-center-align{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+/*
+    Load animation
+*/
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+
+
+.xd-fadein {
+    animation-name: fadein;
+    animation-timing-function: ease-in;
+    animation-duration: 2.25s;
+}
