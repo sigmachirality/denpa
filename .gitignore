@@ -1,0 +1,16 @@
+# Normal npm stuff
+.DS_Store
+npm-debug.log
+/node_modules/
+
+# Bucklescript stuff
+.merlin
+.bsb.lock
+lib
+
+# Bucklescript compiled js files
+src/*.bs.js
+
+# Webpack build
+# Test the app by running `npm install -g serve && serve build`
+build
